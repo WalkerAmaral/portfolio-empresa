@@ -108,6 +108,107 @@ header {
 .sessao-com-imagem img {
     border-radius: 1px 136px 1px 120px;
     position: absolute;
-    bottom: 0px;
-    right: 170px;
+    top: 10em;
+    right: 10%;
+}
+
+
+/* Segunda sessão */
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 108px;
+}
+
+.segunda-sessao {
+    margin-bottom: 12em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #2D2D2D;
+    width: 35%;
+}
+
+.servicos-oferecidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+
+.servico {
+    width: 27%;
+}
+
+.servico img {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.servico-primeiro-icone {
+    background-color: #E3FCE6;
+}
+
+.servico-segundo-icone {
+    background-color: #FFF6E5;
+}
+
+.servico-terceiro-icone {
+    background-color: #E8F9FE;
+}
+
+.servico h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #474747;
+    padding-top: 2em;
+    width: 60%;
+}
+
+.servico p {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    vertical-align: bottom;
+    margin-top: 1em;
+}
+
+.trabalhos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.trabalhos img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.trabalho-duplo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.trabalho-duplo img {
+    width: 49%;
+    display: flex;
+}
+
+.portfolio h2 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #2D2D2D;
+    margin-bottom: 1.5em;
+}
+
+.portfolio-imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
 }
