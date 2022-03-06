@@ -1,4 +1,9 @@
+/* fontes */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset css */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +12,9 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* Cabeçalho */
 
 body {
     background-color: #FAFBFE;
@@ -20,7 +28,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 4em 0;
+    margin: 2em 0 1em 0;
 }
 
 .logo {
@@ -44,4 +52,62 @@ header {
 
 .navegacao *:first-child {
     font-weight: 600;
+}
+
+
+/* Primeira sessao */
+
+.primeira-sessao {
+    background-color: #474747;
+    display: flex;
+    flex-direction: column;
+    padding: 126px 0 34px 54px;
+    background: linear-gradient(259.08deg, #D5ECFF 0.69%, #E6F2FC 100%);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    margin: 0 0 170px 0;
+}
+
+.primeira-sessao-conteudo {
+    width: 43%;
+}
+
+.primeira-sessao-conteudo h2 {
+    font-size: 14px;
+    color: #FF8400;
+    font-weight: 600;
+}
+
+.primeira-sessao-conteudo h1 {
+    font-weight: 600;
+    font-size: 54px;
+    color: #2D2D2D;
+    line-height: 121%;
+}
+
+.primeira-sessao-conteudo h3 {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 3em 0 10em 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.produtos-navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5em 0 0;
+}
+
+.primeira-sessao-conteudo a {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(71, 71, 71, 0.3);
+}
+
+.sessao-com-imagem img {
+    border-radius: 1px 136px 1px 120px;
+    position: absolute;
+    bottom: 0px;
+    right: 170px;
 }
