@@ -18,9 +18,6 @@
 
 body {
     background-color: #FAFBFE;
-}
-
-body {
     margin: 0 80px;
 }
 
@@ -129,7 +126,6 @@ h2 {
     font-weight: 600;
     font-size: 34px;
     color: #2D2D2D;
-    width: 35%;
 }
 
 .servicos-oferecidos {
@@ -211,4 +207,134 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 1.5em;
+}
+
+.view-more {
+    margin-top: 3em;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: 8em;
+}
+
+.time-colaborador h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #474747;
+}
+
+.time-colaborador p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #474747;
+}
+
+.imagem-de-perfil {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 55% 10%;
+    border-radius: 60px;
+}
+
+.redes-sociais-icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.6em 1.5em 0;
+}
+
+.icone {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid #ACD7FB;
+}
+
+.icone img {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+}
+
+.parceiros {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin: 2.5em 0;
+    padding: 1.5em 0;
+}
+
+.parceiros img {
+    height: 53px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 0.75em;
+    margin-bottom: 9em;
+}
+
+.contato form * {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1em;
+}
+
+.contato form *:active,
+.contato form *:hover,
+.contato form *:focus {
+    outline: none !important;
+    border: 1px solid #4093DC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.contato form *:last-child {
+    width: 33%;
+    border: 1px solid #4093DC;
+    color: #4093DC;
+    align-self: flex-end;
+}
+
+.contato form *:last-child:active {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: -2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: default;
+}
+
+footer h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 14px;
 }
